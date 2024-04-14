@@ -14,7 +14,9 @@ func main() {
 
 	// shellSort()
 
-	stack()
+	// stack()
 
 	// queue()
+
+	doublyLinkedList()
 }
