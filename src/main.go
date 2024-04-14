@@ -8,7 +8,9 @@ func main() {
 
 	// insertionSort()
 
-	bubbleSort()
+	// bubbleSort()
+
+	selectionSort()
 
 	// queue()
 }

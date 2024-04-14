@@ -54,3 +54,24 @@ func bubbleSort() {
     }
 	fmt.Println(arr)  // [11 12 22 25 34 64 90]
 }
+
+
+// --------------------
+// 選択ソート
+// --------------------
+func selectionSort() {
+	arr := []int{64, 25, 12, 22, 11}
+	len := len(arr)
+
+	for i := 0; i < len - 1; i++ {  // 0, 1, 2, 3
+		minIndex := i  // 現在の最小
+		for j := i + 1; j < len; j++ {
+			if arr[j] < arr[minIndex] {
+				minIndex = j
+			}
+		}
+		arr[i], arr[minIndex] = arr[minIndex], arr[i]
+	}
+
+	fmt.Println(arr)  // [11 12 22 25 64]
+}
