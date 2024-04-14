@@ -10,7 +10,9 @@ func main() {
 
 	// bubbleSort()
 
-	selectionSort()
+	// selectionSort()
+
+	shellSort()
 
 	// queue()
 }
