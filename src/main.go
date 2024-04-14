@@ -6,7 +6,9 @@ import (
 
 func main() {
 
-	insertionSort()
+	// insertionSort()
+
+	bubbleSort()
 
 	// queue()
 }

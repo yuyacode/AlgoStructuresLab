@@ -28,3 +28,29 @@ func insertionSort() {
 	}
 	fmt.Println(arr)  // [5 6 7 8 9 10]
 }
+
+
+// --------------------
+// バブルソート
+// --------------------
+func bubbleSort() {
+	arr := []int{64, 34, 25, 12, 22, 11, 9}
+	n := len(arr)
+    for i := 0; i < n-1; i++ {
+        // swappedはこのパスで交換が行われたかどうかを追跡する
+        swapped := false
+        // 最後尾からすでにソートされた部分は除外して比較
+        for j := 0; j < n-i-1; j++ {
+            if arr[j] > arr[j+1] {
+                // 隣接する要素が逆順ならば、要素を交換
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+                swapped = true
+            }
+        }
+        // このパスで一度も交換がなかった場合、すでに配列はソートされている
+        if !swapped {
+            break
+        }
+    }
+	fmt.Println(arr)  // [11 12 22 25 34 64 90]
+}
