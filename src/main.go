@@ -6,5 +6,7 @@ import (
 
 func main() {
 
-	queue()
+	insertionSort()
+
+	// queue()
 }
