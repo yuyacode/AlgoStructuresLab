@@ -1,7 +1,7 @@
 package main
 
 import (
-	// "fmt"
+	// 
 )
 
 func main() {
@@ -12,7 +12,9 @@ func main() {
 
 	// selectionSort()
 
-	shellSort()
+	// shellSort()
+
+	stack()
 
 	// queue()
 }
