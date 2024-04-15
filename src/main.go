@@ -20,5 +20,7 @@ func main() {
 
 	// doublyLinkedList()  // 連結リスト
 
-	areaCalculation()  // 水溜まりの体積を求める練習問題
+	// areaCalculation()  // 水溜まりの体積を求める練習問題
+
+	linearSearch()  // 線形探索
 }
