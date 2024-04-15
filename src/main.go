@@ -6,17 +6,19 @@ import (
 
 func main() {
 
-	// insertionSort()
+	// insertionSort()  // 挿入ソート
 
-	// bubbleSort()
+	// bubbleSort()  // バブルソート
 
-	// selectionSort()
+	// selectionSort()  // 選択ソート
 
-	// shellSort()
+	// shellSort()  // シェルソート
 
-	// stack()
+	// stack()  // スタック
 
-	// queue()
+	// queue()  // キュー
 
-	doublyLinkedList()
+	// doublyLinkedList()  // 連結リスト
+
+	areaCalculation()  // 水溜まりの体積を求める練習問題
 }
