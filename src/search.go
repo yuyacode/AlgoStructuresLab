@@ -27,3 +27,31 @@ func linearSearch() {
 	}
 	fmt.Println(count)  // 3
 }
+
+
+// --------------------
+// 二分探索
+// --------------------
+func binarySearch() {
+	numberSequenceS := []int{4, 5, 6, 7, 7, 9, 10, 11, 12}  // 9個の要素
+	numberSequenceQ := []int{3, 5, 40, 6, 8}
+	count := 0
+	for _, q := range numberSequenceQ{
+		low, high := 0, len(numberSequenceS) - 1
+		for low <= high {  // highとlowが逆転した瞬間に、数列Qに存在する該当の要素は数列Sには存在しないと判断できる。なので、それが成立するまでは二分で探索してあげる
+			middle := (low + high) / 2
+			if q == numberSequenceS[middle] {
+				fmt.Println("一致")
+				count++
+				break  // 成立したら抜けないと無限ループが発生する
+			} else if q < numberSequenceS[middle] {
+				fmt.Println("まだまだ小さい")
+				high = middle - 1
+			} else {
+				fmt.Println("まだまだ大きい")
+				low = middle + 1
+			}
+		}
+	}
+	fmt.Println(count)  // 2
+}

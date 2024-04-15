@@ -22,5 +22,7 @@ func main() {
 
 	// areaCalculation()  // 水溜まりの体積を求める練習問題
 
-	linearSearch()  // 線形探索
+	// linearSearch()  // 線形探索
+
+	binarySearch()  // 二分探索
 }
