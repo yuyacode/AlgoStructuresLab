@@ -26,5 +26,7 @@ func main() {
 
 	// binarySearch()  // 二分探索
 
-	dictionary()  // ハッシュ
+	// dictionary()  // ハッシュ
+
+	binarySearchPractice1()  // 二分探索 練習問題
 }
