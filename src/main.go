@@ -24,5 +24,7 @@ func main() {
 
 	// linearSearch()  // 線形探索
 
-	binarySearch()  // 二分探索
+	// binarySearch()  // 二分探索
+
+	dictionary()  // ハッシュ
 }
