@@ -32,5 +32,7 @@ func main() {
 
 	// recursionPractice1()  // 再帰 練習
 
-	KochCurveMain()  // コッホ曲線 練習問題
+	// KochCurveMain()  // コッホ曲線 練習問題
+
+	mergeSortMain()  // マージソート
 }
