@@ -30,5 +30,7 @@ func main() {
 
 	// binarySearchPractice1()  // 二分探索 練習問題
 
-	recursionPractice1()  // 再帰 練習
+	// recursionPractice1()  // 再帰 練習
+
+	KochCurveMain()  // コッホ曲線 練習問題
 }
