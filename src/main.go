@@ -36,5 +36,7 @@ func main() {
 
 	// mergeSortMain()  // マージソート
 
-	partition()  // パーティーション
+	// partition()  // パーティーション
+
+	quickSortMain()  // クイックソート
 }
