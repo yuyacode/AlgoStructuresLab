@@ -45,5 +45,5 @@ func mergeSortMain() {
 	array := []int{8, 5, 9, 2, 6, 3, 7, 1, 10, 4}
 	sortedArray := mergeSort(array)
 	fmt.Println("Sorted array : ", sortedArray)  // Sorted array :  [1 1 2 3 3 4 5 5 5 6 9]
-	fmt.Println("compareCount : ", compareCount)  // 9
+	fmt.Println("compareCount : ", compareCount)  // 24
 }

@@ -34,5 +34,7 @@ func main() {
 
 	// KochCurveMain()  // コッホ曲線 練習問題
 
-	mergeSortMain()  // マージソート
+	// mergeSortMain()  // マージソート
+
+	partition()  // パーティーション
 }
