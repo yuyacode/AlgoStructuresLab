@@ -38,5 +38,7 @@ func main() {
 
 	// partition()  // パーティーション
 
-	quickSortMain()  // クイックソート
+	// quickSortMain()  // クイックソート
+
+	countingSort()  // 計数ソート
 }
