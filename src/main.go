@@ -40,5 +40,7 @@ func main() {
 
 	// quickSortMain()  // クイックソート
 
-	countingSort()  // 計数ソート
+	// countingSort()  // 計数ソート
+
+	theNumberOfInversions()  // 反転数
 }
