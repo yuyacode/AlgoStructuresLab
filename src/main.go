@@ -42,5 +42,7 @@ func main() {
 
 	// countingSort()  // 計数ソート
 
-	theNumberOfInversions()  // 反転数
+	// theNumberOfInversions()  // 反転数
+
+	rootedTrees()  // 根付き木の表現
 }
