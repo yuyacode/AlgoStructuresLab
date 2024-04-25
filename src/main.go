@@ -44,5 +44,7 @@ func main() {
 
 	// theNumberOfInversions()  // 反転数
 
-	rootedTrees()  // 根付き木の表現
+	// rootedTrees()  // 根付き木
+
+	binaryTree()  // 二分木
 }
