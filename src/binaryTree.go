@@ -51,6 +51,7 @@ func binaryTree() {
 		for nodeInfoKey, nodeInfoVal := range nodeInfo{
 			if nodeInfoKey == 1 {
 				// 二分木は、２つの子を持つか、子を１つも持たないかの２択なので、子を表す片方の要素（１番目）のみ確認して、それが-1であれば、その要素は子を持たない要素と判定できる
+				// 追記：「二分木の各ノードは最大で二つの子を持つことができる」というのが正しい理解のようなので、１つの子を持つ可能性もあるとのこと（プログラムの修正は後回しにするが、この理解はしておく）
 				if nodeInfoVal == -1 {  // 子を持たない場合
 					binaryTreeParseResult[nodeKey].kind = "leaf"
 				} else {  // ２つの子を持つ場合

@@ -46,5 +46,7 @@ func main() {
 
 	// rootedTrees()  // 根付き木
 
-	binaryTree()  // 二分木
+	// binaryTree()  // 二分木
+
+	binarySearchTreeInsert()  // 二分探索木の挿入
 }
