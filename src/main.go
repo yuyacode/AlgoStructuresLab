@@ -48,5 +48,7 @@ func main() {
 
 	// binaryTree()  // 二分木
 
-	binarySearchTreeInsert()  // 二分探索木の挿入
+	// binarySearchTreeInsert()  // 二分探索木の挿入
+
+	binarySearchTreeInsertModifyingByGPT()  // 二分探索木の挿入（GPTにより最適化してもらったコード）
 }
