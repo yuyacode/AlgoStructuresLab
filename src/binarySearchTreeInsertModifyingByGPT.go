@@ -20,8 +20,10 @@ func binarySearchTreeInsertModifyingByGPT() {
 		"insert 12",
 		"insert 1",
 		"insert 20",
+		"find 12",
 		"insert 17",
 		"insert 25",
+		"find 16",
 		"print",
 	}
 	var root *node
@@ -34,6 +36,15 @@ func binarySearchTreeInsertModifyingByGPT() {
 				continue
 			}
 			root = insert(root, nil, value)
+		} else if strings.HasPrefix(command, "find") {
+			parts := strings.Split(command, " ")
+			value, err := strconv.Atoi(parts[1])
+			if err != nil {
+				fmt.Println("Failed to convert string to int:", err)
+				continue
+			}
+			searchResult := find(root, value)
+			fmt.Println(searchResult)
 		} else if command == "print" {
 			fmt.Println("Preorder traversal:")
 			preorderTreeWalk(root)
@@ -58,6 +69,19 @@ func insert(n *node, parent *node, key int) *node {
 		n.right = insert(n.right, n, key)  // ifステートメントと同じように、こちらではrightとして設定してあげる
 	}
 	return n
+}
+
+func find(n *node, key int) string {
+	if n == nil {
+		return "No"
+	}
+	if key == n.key {
+		return "Yes"
+	} else if key < n.key {
+		return find(n.left, key)
+	} else  {
+		return find(n.right, key)
+	}
 }
 
 func preorderTreeWalk(n *node) {
@@ -87,6 +111,8 @@ func postorderTreeWalk(n *node) {
 	fmt.Println(n.key)
 }
 
+// Yes
+// No
 // Preorder traversal:
 // 30
 // 12
