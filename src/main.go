@@ -54,5 +54,7 @@ func main() {
 
 	// maximumHeap()  // 最大ヒープ
 
-	priorityQueuePractice()  // 優先度付きキュー
+	// priorityQueuePractice()  // 優先度付きキュー
+
+	fibonacciNumberHandler()  // フィボナッチ数列
 }
