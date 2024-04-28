@@ -50,5 +50,7 @@ func main() {
 
 	// binarySearchTreeInsert()  // 二分探索木の挿入
 
-	binarySearchTreeInsertModifyingByGPT()  // 二分探索木の挿入（GPTにより最適化してもらったコード）
+	// binarySearchTreeInsertModifyingByGPT()  // 二分探索木の挿入（GPTにより最適化してもらったコード）と検索
+
+	maximumHeap()  // 最大ヒープ
 }
