@@ -56,5 +56,7 @@ func main() {
 
 	// priorityQueuePractice()  // 優先度付きキュー
 
-	fibonacciNumberHandler()  // フィボナッチ数列
+	// fibonacciNumberHandler()  // フィボナッチ数列
+
+	longestCommonSubsequence()  // 最長共通部分列
 }
