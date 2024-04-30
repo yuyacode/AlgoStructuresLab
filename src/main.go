@@ -58,5 +58,7 @@ func main() {
 
 	// fibonacciNumberHandler()  // フィボナッチ数列
 
-	longestCommonSubsequence()  // 最長共通部分列
+	// longestCommonSubsequence()  // 最長共通部分列
+
+	graph()  // グラフの表現
 }

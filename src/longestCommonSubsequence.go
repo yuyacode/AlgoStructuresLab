@@ -24,6 +24,7 @@ func longestCommonSubsequence() {
 		memo[i] = make([]int, len(y))
 	}
 
+	// 二重ループから分かる通り、xの長さをn、yの長さをmとすると、O(nm)のアルゴリズムである
 	for xKey, xValue := range x {
 		for yKey, yValue := range y {
 			if xValue == yValue {  // セルの左上の値に１を足す
