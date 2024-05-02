@@ -60,5 +60,7 @@ func main() {
 
 	// longestCommonSubsequence()  // 最長共通部分列
 
-	graph()  // グラフの表現
+	// graph()  // グラフの表現
+
+	depthFirstSearch()  // 深さ優先探索
 }
