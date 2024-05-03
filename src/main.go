@@ -66,5 +66,7 @@ func main() {
 
 	// depthFirstSearchHintFromGPT()  // 深さ優先探索（GPTからヒントをもらって実装したver）
 
-	breadthFirstSearch()  // 幅優先探索
+	// breadthFirstSearch()  // 幅優先探索
+
+	connectedComponents()  // 連結成分
 }
