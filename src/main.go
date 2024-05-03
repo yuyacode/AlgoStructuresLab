@@ -64,5 +64,7 @@ func main() {
 
 	// depthFirstSearch()  // 深さ優先探索
 
-	depthFirstSearchHintFromGPT()  // 深さ優先探索（GPTからヒントをもらって実装したver）
+	// depthFirstSearchHintFromGPT()  // 深さ優先探索（GPTからヒントをもらって実装したver）
+
+	breadthFirstSearch()  // 幅優先探索
 }
