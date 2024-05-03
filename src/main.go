@@ -62,5 +62,7 @@ func main() {
 
 	// graph()  // グラフの表現
 
-	depthFirstSearch()  // 深さ優先探索
+	// depthFirstSearch()  // 深さ優先探索
+
+	depthFirstSearchHintFromGPT()  // 深さ優先探索（GPTからヒントをもらって実装したver）
 }
