@@ -70,5 +70,7 @@ func main() {
 
 	// connectedComponents()  // 連結成分
 
-	minimumSpanningTree()  // 最小全域木
+	// minimumSpanningTree()  // 最小全域木
+
+	singleSourceShortestPath1()  // 単一始点最短経路
 }
