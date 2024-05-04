@@ -68,5 +68,7 @@ func main() {
 
 	// breadthFirstSearch()  // 幅優先探索
 
-	connectedComponents()  // 連結成分
+	// connectedComponents()  // 連結成分
+
+	minimumSpanningTree()  // 最小全域木
 }
