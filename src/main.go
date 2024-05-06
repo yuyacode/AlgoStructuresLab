@@ -72,5 +72,7 @@ func main() {
 
 	// minimumSpanningTree()  // 最小全域木
 
-	singleSourceShortestPath1()  // 単一始点最短経路
+	// singleSourceShortestPath1()  // 
+	
+	disjointSets()  // 互いに素な集合
 }
