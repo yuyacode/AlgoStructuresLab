@@ -74,5 +74,7 @@ func main() {
 
 	// singleSourceShortestPath1()  // 
 	
-	disjointSets()  // 互いに素な集合
+	// disjointSets()  // 互いに素な集合
+
+	rangeSearchMain()  // 領域探索（GPTにもらったコード）
 }
