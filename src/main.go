@@ -80,5 +80,9 @@ func main() {
 
 	// allPairsShortestPath()  // 全点対間最短経路
 
-	topologicalSortBFS()  // トポロジカルソート（幅優先探索を用いて解く）
+	// topologicalSortBFS()  // トポロジカルソート（幅優先探索を用いて解く）
+
+	topologicalSortDFS()  // トポロジカルソート（深さ優先探索を用いて解く）
+	// test()
+
 }
