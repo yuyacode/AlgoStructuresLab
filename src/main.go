@@ -78,5 +78,7 @@ func main() {
 
 	// rangeSearchMain()  // 領域探索（GPTにもらったコード）
 
-	allPairsShortestPath()  // 全点対間最短経路
+	// allPairsShortestPath()  // 全点対間最短経路
+
+	topologicalSortBFS()  // トポロジカルソート（幅優先探索を用いて解く）
 }

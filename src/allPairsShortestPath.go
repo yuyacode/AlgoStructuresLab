@@ -83,7 +83,7 @@ func allPairsShortestPath() {
 	if !isNegativeCycle {
 		for i := 0; i < n; i++ {
 			for j := 0; j < n; j++ {
-				if dist[i][j] == inf {
+				if dist[i][j] == inf {  // infということは、iからjへの経路が存在しないことを指す
 					fmt.Print("inf")
 				} else {
 					fmt.Print(dist[i][j])
