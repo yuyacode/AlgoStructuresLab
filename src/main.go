@@ -76,5 +76,7 @@ func main() {
 	
 	// disjointSets()  // 互いに素な集合
 
-	rangeSearchMain()  // 領域探索（GPTにもらったコード）
+	// rangeSearchMain()  // 領域探索（GPTにもらったコード）
+
+	allPairsShortestPath()  // 全点対間最短経路
 }
