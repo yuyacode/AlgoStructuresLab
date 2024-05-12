@@ -82,7 +82,9 @@ func main() {
 
 	// topologicalSortBFS()  // トポロジカルソート（幅優先探索を用いて解く）
 
-	topologicalSortDFS()  // トポロジカルソート（深さ優先探索を用いて解く）
+	// topologicalSortDFS()  // トポロジカルソート（深さ優先探索を用いて解く）
 	// test()
+
+	articulationPoint()  // 関節点
 
 }
