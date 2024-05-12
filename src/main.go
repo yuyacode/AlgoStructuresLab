@@ -85,6 +85,7 @@ func main() {
 	// topologicalSortDFS()  // トポロジカルソート（深さ優先探索を用いて解く）
 	// test()
 
-	articulationPoint()  // 関節点
+	// articulationPoint()  // 関節点
 
+	minimumSpanningTreeKruskal()  // 最小全域木(クラスカルのアルゴリズムを用いて)
 }
