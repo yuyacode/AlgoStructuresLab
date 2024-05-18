@@ -87,5 +87,7 @@ func main() {
 
 	// articulationPoint()  // 関節点
 
-	minimumSpanningTreeKruskal()  // 最小全域木(クラスカルのアルゴリズムを用いて)
+	// minimumSpanningTreeKruskal()  // 最小全域木(クラスカルのアルゴリズムを用いて)
+
+	parallelOrthogonal()  // 直線の直交・並行判定
 }
