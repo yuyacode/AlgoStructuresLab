@@ -91,5 +91,7 @@ func main() {
 
 	// parallelOrthogonal()  // 直線の直交・並行判定
 
-	projection()  // 射影
+	// projection()  // 射影
+
+	reflection()  // 反射
 }
