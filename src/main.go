@@ -89,5 +89,7 @@ func main() {
 
 	// minimumSpanningTreeKruskal()  // 最小全域木(クラスカルのアルゴリズムを用いて)
 
-	parallelOrthogonal()  // 直線の直交・並行判定
+	// parallelOrthogonal()  // 直線の直交・並行判定
+
+	projection()  // 射影
 }
