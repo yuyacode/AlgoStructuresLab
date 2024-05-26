@@ -1,7 +1,7 @@
 package main
 
 import (
-	// 
+	// "fmt"
 )
 
 func main() {
@@ -95,5 +95,7 @@ func main() {
 
 	// reflection()  // 反射
 
-	distance()  // 距離
+	// distance()  // 距離
+
+	coinChangingProblem()  // コイン問題
 }
